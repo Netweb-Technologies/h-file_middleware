@@ -18,7 +18,7 @@ class NetworkConfigurationModel(sa.Model):
     __tablename__ = 'network_globalconfiguration'
 
     id = sa.Column(sa.Integer(), primary_key=True)
-    gc_hostname = sa.Column(sa.String(120), default='nas')
+    gc_hostname = sa.Column(sa.String(120), default='tyrone')
     gc_hostname_b = sa.Column(sa.String(120), nullable=True)
     gc_domain = sa.Column(sa.String(120), default='local')
     gc_ipv4gateway = sa.Column(sa.String(42), default='')
