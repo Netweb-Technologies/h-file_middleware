@@ -4,7 +4,7 @@ NVMET_KERNEL_CONFIG_DIR = '/sys/kernel/config/nvmet'
 NVMET_NODE_A_ANA_GRPID = 2
 NVMET_NODE_B_ANA_GRPID = 3
 
-NVMET_NQN_UUID = 'nqn.2011-06.com.truenas:uuid'
+NVMET_NQN_UUID = 'nqn.2026-03.com.tyronevertapro:uuid'
 NVMET_SERVICE_NAME = 'nvmet'
 
 NVMET_MAX_NSID = 0xFFFFFFFE
